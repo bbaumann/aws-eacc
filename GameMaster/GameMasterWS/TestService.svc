@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="eacc.gamemaster.ws.TestService" CodeBehind="TestService.svc.cs" %>

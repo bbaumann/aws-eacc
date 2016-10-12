@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EaccObjects", "GameObjects\EaccObjects.csproj", "{064C31B4-90D6-422A-8C87-6FD92A3191A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameMasterWS", "GameMasterWS\GameMasterWS.csproj", "{1743CEB9-F08A-42CC-B612-0C9A915A33DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0-Common", "0-Common", "{57FDD2BB-636E-40F1-95D7-059E9E5EEED1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "99-Programs", "99-Programs", "{77F3FECC-68DC-46E3-8DD4-5D7D153D7012}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EaccGameMasterObjects", "EaccGameMasterObjects\EaccGameMasterObjects.csproj", "{81CECDD7-23A0-479B-88A3-670B09F2924A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EaccGameMasterProcess", "EaccGameMasterBL\EaccGameMasterProcess.csproj", "{21FCC649-F5AD-4B9F-95BC-AEDD50B2C984}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameMasterTester", "GameMasterTester\GameMasterTester.csproj", "{B20AEFE8-AD40-4BC0-A702-224E230B4DEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameMasterRelayService", "GameMasterRelayService\GameMasterRelayService.csproj", "{BDFC1BBF-8674-42EB-93E3-54A535023412}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{064C31B4-90D6-422A-8C87-6FD92A3191A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{064C31B4-90D6-422A-8C87-6FD92A3191A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{064C31B4-90D6-422A-8C87-6FD92A3191A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{064C31B4-90D6-422A-8C87-6FD92A3191A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1743CEB9-F08A-42CC-B612-0C9A915A33DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1743CEB9-F08A-42CC-B612-0C9A915A33DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1743CEB9-F08A-42CC-B612-0C9A915A33DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1743CEB9-F08A-42CC-B612-0C9A915A33DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81CECDD7-23A0-479B-88A3-670B09F2924A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81CECDD7-23A0-479B-88A3-670B09F2924A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81CECDD7-23A0-479B-88A3-670B09F2924A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81CECDD7-23A0-479B-88A3-670B09F2924A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21FCC649-F5AD-4B9F-95BC-AEDD50B2C984}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21FCC649-F5AD-4B9F-95BC-AEDD50B2C984}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21FCC649-F5AD-4B9F-95BC-AEDD50B2C984}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21FCC649-F5AD-4B9F-95BC-AEDD50B2C984}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B20AEFE8-AD40-4BC0-A702-224E230B4DEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B20AEFE8-AD40-4BC0-A702-224E230B4DEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B20AEFE8-AD40-4BC0-A702-224E230B4DEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B20AEFE8-AD40-4BC0-A702-224E230B4DEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDFC1BBF-8674-42EB-93E3-54A535023412}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDFC1BBF-8674-42EB-93E3-54A535023412}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDFC1BBF-8674-42EB-93E3-54A535023412}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDFC1BBF-8674-42EB-93E3-54A535023412}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{064C31B4-90D6-422A-8C87-6FD92A3191A8} = {57FDD2BB-636E-40F1-95D7-059E9E5EEED1}
+		{1743CEB9-F08A-42CC-B612-0C9A915A33DC} = {77F3FECC-68DC-46E3-8DD4-5D7D153D7012}
+		{81CECDD7-23A0-479B-88A3-670B09F2924A} = {57FDD2BB-636E-40F1-95D7-059E9E5EEED1}
+		{21FCC649-F5AD-4B9F-95BC-AEDD50B2C984} = {77F3FECC-68DC-46E3-8DD4-5D7D153D7012}
+		{B20AEFE8-AD40-4BC0-A702-224E230B4DEF} = {77F3FECC-68DC-46E3-8DD4-5D7D153D7012}
+	EndGlobalSection
+EndGlobal

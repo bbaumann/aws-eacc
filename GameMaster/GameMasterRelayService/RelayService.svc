@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="eacc.gamemaster.ws.relay.RelayService" CodeBehind="RelayService.svc.cs" %>
